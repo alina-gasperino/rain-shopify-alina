@@ -157,7 +157,6 @@
         "disabled": false,
         "settings": {
           "activateFreeGift": true,
-          "keepModalOpened": false,
           "modalHeaderText": "Select an alternative",
           "modalButtonText": "Select"
         }

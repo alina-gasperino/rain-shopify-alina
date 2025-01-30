@@ -153,12 +153,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_section_93b3kH": {
+      "type": "custom-section",
+      "blocks": {
+        "product_BzcP9B": {
+          "type": "product",
+          "settings": {
+            "product": "the-complete-snowboard"
+          }
+        },
+        "product_F7zjVc": {
+          "type": "product",
+          "settings": {
+            "product": "the-multi-managed-snowboard"
+          }
+        }
+      },
+      "block_order": [
+        "product_BzcP9B",
+        "product_F7zjVc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/michael-starkie.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "heading": "Make this season your best yet",
+        "caption": "<p>Get the best board for the kind of riding you enjoy the most. From powder to park we’ve got it all.<\/p>",
+        "text_style": "caption-with-letter-spacing",
+        "text_size": "medium",
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "38cdf60f-e431-43b5-aac3-7e6215447d67",
+    "custom_section_93b3kH"
   ]
 }

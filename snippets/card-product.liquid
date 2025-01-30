@@ -19,7 +19,6 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
@@ -49,6 +48,9 @@
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
+      {% if show_best_use_meta_field == true %}
+        <div class="best_use">{{ card_product.metafields.custom.snowboard_best_use.value }}</div>
+      {% endif %}
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
